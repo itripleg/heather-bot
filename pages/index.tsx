@@ -37,7 +37,7 @@ export default function IndexPage(props: PageProps) {
           </PreviewWrapper>
         }
       >
-        <HomePagePreview token={token} />
+        {/* <HomePagePreview token={token} /> */}
       </PreviewSuspense>
     )
   }
